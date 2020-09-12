@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="Clone do Spotify">
+    <meta name="keywords" content="Clone, Spotify, musica, ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-wraper">
+            <div class="sidebar_logo">
+                <img src="image/logo.png" alt="Spotify">
+            </div><!--sidebar_logo-->
+
+            <div class="sidebar_menu">
+                <a class="sidebar_menu_selecionado" href="#"><i class="fas fa-home"></i>Início</a>
+                <a href="#"><i class="fas fa-search"></i>Buscar</a>
+                <a href="#"><i class="fas fa-database"></i>Biblíoteca</a>
+            </div><!--sidebar_menu-->
+
+            <div class="sidebar_menu">
+               <p class="sidebar_menu_title">Playlists</p> 
+
+               <div class="sidebar_menu_item">
+                   <div class="sidebar_menu_item_componente">
+                       +
+                   </div>
+                   <span>Criar uma Playlist</span>
+                    <br><br>                   
+                    <div class="sidebar_menu_item_componente">
+                        <img src="/image/musicas_curtidas.png" alt="Musicas Curtidas">
+                    </div>
+                    <span>Musicas Curtidas</span>
+               </div><!--sidebar_menu_item-->
+            </div><!--sidebar_menu-->
+
+            <div class="sidebar_playlists">
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+            </div><!--sidebar_playlists-->
+
+            <div class="sidebar_playlists">
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+            </div><!--sidebar_playlists-->
+
+            <div class="sidebar_playlists">
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+                <a href="#">Playlist</a>
+            </div><!--sidebar_playlists-->
+        </div><!--sidebar-wraper-->
+    </div><!--sidebar-->
+
+    <main>
+        <div class="main-wraper">
+            <div class="main_row">
+                <div class="main_row_title">
+                    <h2>Paradas</h2>
+                </div><!--main_row_title-->
+
+                <div class="main_col" alt="">
+                    <img src="/image/top50global.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col" >
+                    <img src="/image/top50.png"alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/top50global.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/rocky.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/top50global.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/gunsrools.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/rocky.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/top50.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+
+                <div class="main_col">
+                    <img src="/image/top50global.png" alt="">
+                    <h3>As 50 mais tocadas</h3>
+                    <p>Aqui vai a descrição da minha música...</p>
+                </div><!--main_col-->
+            </div><!--main_row-->
+
+            <div class="main_row">
+                <div class="main_row_title">
+                    <h2>Minhas Músicas</h2>
+                </div><!--main_row_title-->
+
+                <div class="main_col" data-image="image/gunsrools.png" data-artist="Guns N Roses" data-song="Sweet Child Of Mine" data-file="assets/music.mp3">
+                    <img src="/image/gunsrools.png" alt="">
+                    <h3>Guns N Roses</h3>
+                    <p>Sweet Child Of Mine</p>
+                </div><!--main_col-->
+
+                <div class="main_col" data-image="/image/rocky.png" data-artist="Rock Balboa" data-song="Gona Fly" data-file="assets/music.mp3">
+                    <img src="/image/rocky.png"alt="">
+                    <h3>Rock Balboa</h3>
+                    <p>Gona Fly</p>
+                </div><!--main_col-->
+            </div><!--main_row-->
+        </div><!--main-wraper-->
+    </main>
+
+    <div class="player">
+        <div class="player_artist"></div><!--player_artist-->
+
+        <div class="player_control">
+            <div class="player_control_buttons">
+                <a href="#"><i class="fas fa-backward"></i></a>
+                <a style="display: none;" id="pauseBtn" href="#"><i class="far fa-pause-circle"></i></a>
+                <a id="playBtn" href="#"><i class="far fa-play-circle"></i></a>
+                <a href="#"><i class="fas fa-forward"></i></a>
+            </div><!--player_control_buttons-->
+
+            <div class="player_control_progress">
+                <div class="player_control_progress2"></div><!--player_control_progress2-->
+            </div><!--player_control_progress-->
+        </div><!--player_control-->
+    </div><!--player-->
+
+    <audio id="audioplayer" style="position: absolute; left: 0; top: 0;z-index: -999;" controls="">
+        
+    </audio>
+
+
+    <script src="/js/all.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
